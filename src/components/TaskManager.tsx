@@ -3,7 +3,7 @@ import { Task } from './UseTaskManager';
 import "./TaskManager.css";
 
 export const TaskManager = () => {
-  const { title, filteredTasks, addTask, updateTask, completeTask, handleSearch, setTitle } = useTaskManager();
+ const { title, filteredTasks, addTask, updateTask, completeTask, handleSearch, setTitle } = useTaskManager();
 
  return (
     <div className="container">
